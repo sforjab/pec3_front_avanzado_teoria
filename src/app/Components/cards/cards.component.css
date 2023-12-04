@@ -1,0 +1,19 @@
+.content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+ 
+mat-card-content {
+    padding: 16px;    
+}
+
+.content > mat-card {
+    width: 250px;
+}
+
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+}
+  
